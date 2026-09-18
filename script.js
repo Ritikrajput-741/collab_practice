@@ -1,12 +1,17 @@
-const inp = document.getElementById("inp");
+const email = document.getElementById("email");
+const pass = document.getElementById("pass");
 const btn = document.getElementById("btn");
-
-inp.addEventListener;
 
 btn.addEventListener("click", (e) => {
   e.preventDefault();
 
-  const data = inp;
+  const mail = email.value;
+  const pas = pass.value;
 
-  console.log(data);
+  console.log(
+    `
+    Email : ${mail}
+    Password : ${pas}
+    `,
+  );
 });
