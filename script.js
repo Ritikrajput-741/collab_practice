@@ -15,3 +15,6 @@ btn.addEventListener("click", (e) => {
     `,
   );
 });
+
+
+console.log("fetch kr liya tuna")
